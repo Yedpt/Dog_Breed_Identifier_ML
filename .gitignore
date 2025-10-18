@@ -165,8 +165,3 @@ Desktop.ini
 # Linux
 *~
 
-# ================================
-# 🚫 EXCLUIR frontend/ completamente
-# ================================
-# NO aplicar reglas de gitignore a la carpeta frontend/
-frontend/
