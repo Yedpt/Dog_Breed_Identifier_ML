@@ -1,0 +1,1 @@
+# aqui va los esquemas pydantic de la predicción de raza 
