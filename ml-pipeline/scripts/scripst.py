@@ -1,0 +1,1 @@
+# aqui va los scripts dode se entrenara el modelo 

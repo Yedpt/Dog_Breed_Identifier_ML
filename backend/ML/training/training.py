@@ -1,0 +1,1 @@
+# aqui iria el codigo que entrena el modelo y genera el pkl y lo lleva a la carpeta models que no se suba al repo
