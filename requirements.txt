@@ -1,0 +1,75 @@
+﻿# ============================================================================
+# DOG BREED IDENTIFIER - REQUIREMENTS
+# ============================================================================
+# Proyecto de clasificación de razas de perros con CNN y FastAPI
+# 
+# INSTALACIÓN:
+#   1. Crear entorno virtual: python -m venv .venv
+#   2. Activar: .venv\Scripts\Activate.ps1 (Windows) o source .venv/bin/activate (Linux/Mac)
+#   3. Instalar: pip install -r requirements.txt
+#
+# NOTA IMPORTANTE - PyTorch:
+#   Este archivo instala PyTorch CPU. Para usar GPU con CUDA 11.8:
+#   pip install torch==2.10.0 torchvision==0.25.0 --index-url https://download.pytorch.org/whl/cu118
+# ============================================================================
+
+# ===== MACHINE LEARNING & DEEP LEARNING =====
+# PyTorch - Framework principal para el modelo CNN EfficientNetV2-S
+torch==2.10.0
+torchvision==0.25.0
+
+# Procesamiento de imágenes
+opencv-python==4.12.0.88
+albumentations==2.0.8
+albucore==0.0.24
+
+# Machine Learning tradicional (LabelEncoder)
+scikit-learn==1.8.0
+
+# ===== DATA PROCESSING =====
+numpy==2.2.6
+pandas==2.2.3
+scipy==1.17.0
+joblib==1.5.2
+
+# ===== VISUALIZATION & NOTEBOOKS =====
+matplotlib==3.9.4
+seaborn==0.13.2
+jupyter==1.1.1
+notebook==7.3.1
+ipykernel==6.30.0
+
+# ===== BACKEND API (FastAPI) =====
+fastapi==0.119.0
+uvicorn[standard]==0.38.0
+python-multipart==0.0.20
+
+# Validación de datos con Pydantic
+pydantic==2.12.3
+pydantic-core==2.41.4
+pydantic-settings==2.11.0
+
+# CORS y HTTP
+starlette==0.47.1
+
+# ===== UTILITIES =====
+pillow==12.0.0
+python-dotenv==1.1.1
+requests==2.32.5
+
+# Utilidades adicionales
+PyYAML==6.0.3
+
+# ===== MONITORING & MLOPS (Opcional) =====
+# Descomentar según necesidad:
+# tensorboard==2.18.0  # Visualización de entrenamiento
+# evidently==0.5.0  # Data drift monitoring
+# mlflow==2.18.0  # Experiment tracking
+
+# ===== DEVELOPMENT & TESTING (Opcional) =====
+# Descomentar para desarrollo:
+# pytest==8.0.0  # Framework de testing
+# pytest-cov==4.1.0  # Coverage
+# black==24.0.0  # Code formatter
+# flake8==7.0.0  # Linter
+# mypy==1.8.0  # Type checking
