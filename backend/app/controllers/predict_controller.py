@@ -1,1 +1,0 @@
-# aqui se sube el controlador de la predicción 
