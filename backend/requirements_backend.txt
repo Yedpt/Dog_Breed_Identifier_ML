@@ -1,0 +1,24 @@
+# Backend API Dependencies - Dog Breed Identifier
+# Instalar PyTorch primero con: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+# FastAPI y servidor
+fastapi==0.119.0
+uvicorn==0.38.0
+python-multipart==0.0.20
+
+# Pydantic para validación
+pydantic==2.12.3
+pydantic-settings==2.11.0
+
+# ML y procesamiento de imágenes
+# torch - instalar manualmente (ver comando arriba)
+# torchvision - instalar manualmente (ver comando arriba)
+opencv-python==4.12.0.88
+albumentations==2.0.8
+numpy==2.2.6
+joblib==1.5.2
+pillow==12.0.0
+
+# Utilidades
+python-dotenv==1.1.1
+requests==2.32.5
